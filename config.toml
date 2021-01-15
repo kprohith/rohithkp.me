@@ -1,0 +1,110 @@
+baseurl = "https://rohithkp.me/"
+title = "Hi, I am Rohith Palakirti."
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+[[menu.main]]
+   identifier = "blog"
+   name       = "Blog"
+   url        = "https://blog.rohithkp.me"
+   weight = 1
+
+
+[[menu.main]]
+   identifier = "about"
+   name       = "About"
+   url        = "about/"
+   weight = 5
+
+[[menu.main]]
+   identifier = "Notes"
+   name       = "Notes"
+   url        = "https://notes.rohithkp.me"
+   weight = 4
+
+[[menu.main]]
+   identifier = "Bookshelf"
+   name       = "Bookshelf"
+   url        = "https://calibre.rohithkp.me"
+   weight = 3
+
+ [[menu.main]]
+    identifier = "posts"
+    name       = "All Posts"
+    url        = "posts/"
+    weight = 2
+
+ [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/fortytwochars"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:rohith@rkpblog.tech"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/kprohith"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/rohith-kp"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/13706679/rohith-palakirti?tab=profile/"
+  
+  
+  
+  footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
+  footerRight = "Made with &#10084; by <a href=\"https://github.com/kprohith\">Rohith Palakirti</a>"
+
+
+
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+paginate  = 25
+rssLimit  = 10 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+[author]
+  name = "Rohith Palakirti"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
