@@ -39,7 +39,7 @@ theme = "hello-friend-ng"
 [[menu.main]]
    identifier = "Bookshelf"
    name       = "Bookshelf"
-   url        = "https://calibre.rohithkp.me"
+   url        = "https://notes.rohithkp.me/?stackedPages=%2Fbooks"
    weight = 3
 
  [[menu.main]]
